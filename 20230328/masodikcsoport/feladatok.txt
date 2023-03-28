@@ -1,0 +1,39 @@
+1.Szimuláljon egy pénzfeldobást, ahol azonos esélye van a fejnek és az írásnak is! 
+Az eredményt írassa ki a képernyőre a mintának megfelelően! 
+
+2.Kérjen be a felhasználótól egy tippet, majd szimuláljon egy pénzfeldobást! 
+Írassa ki a képernyőre a felhasználó tippjét és a dobás eredményét is, 
+majd tájékoztassa a felhasználót az eredményről következő formában: 
+„Ön eltalálta.” vagy „Ön nem találta el.”! 
+
+A kiserlet.txt állományban egy pénzfeldobás-sorozat 
+eredményét találja. Mivel a sorozat hossza tetszőleges lehet, ezért az összes adat 
+memóriában történő egyidejűeltárolása nélkül oldja meg a következő feladatokat! 
+Feltételezheti, hogy egymilliónál több adata nem lesz. 
+
+3.Állapítsa meg, hány dobásból állt a kísérlet, és a választ a mintának megfelelően írassa ki 
+a képernyőre! 
+
+4.Milyen relatív gyakorisággal dobtunk a kísérlet során fejet? (A fej relatív gyakorisága 
+a fejet eredményező dobások és az összes dobás hányadosa.) A relatív gyakoriságot a mintának 
+megfelelően két tizedesjegy pontossággal, százalék formátumban írassa ki a képernyőre! 
+
+5.Hányszor fordult elő ebben a kísérletben, hogy egymás után pontosan két fejet dobtunk? 
+A választ a mintának megfelelően írassa ki a képernyőre! 
+(Feltételezheti, hogy a kísérlet legalább 3 dobásból állt.) 
+Például az IFFFFIIFFIFFFIFF sorozatban kétszer fordult elő, hogy egymás után pontosan 
+két fejet dobtunk. 
+
+6.Milyen hosszú volt a leghosszabb, csak fejekből álló részsorozat? Írassa ki a választ 
+a képernyőre a mintának megfelelően, és adja meg egy ilyen részsorozat első tagjának helyét is! 
+(A minta tagjainak számozását eggyel kezdjük.) Sokan azt hiszik, hogy ha már elég sok fejet dobtunk, 
+akkor a következő dobás nagyobb valószínűséggel lesz írás, mint fej. 
+Ennek ellenőrzésére vonatkozik a következő feladat. 
+
+7.Állítson elő és tároljon a memóriában 1000 db négy dobásból álló sorozatot! 
+Számolja meg, hogy hány esetben követett egy háromtagú „tisztafej” sorozatot fej, 
+illetve hány esetben írás! Az eredményt írassa ki a dobasok.txt állományba úgy, 
+hogy az első sorba kerüljön az eredmény, a második sorban pedig egy-egy szóközzel elválasztva, 
+egyetlen sorban szerepeljenek a dobássorozatok! 
+Például: FFFF: 12, FFFI: 14 FIFI IIIF IFIF IIII FFII FFFF IIFI FFII FFFI 
+... Minta (a forrásállomány alapján készült, valós adat
